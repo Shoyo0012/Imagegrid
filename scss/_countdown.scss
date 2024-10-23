@@ -1,0 +1,38 @@
+.countdown{
+ padding: 5rem 0;
+ .countdown-inner{
+ background-image: url("/img/count-bg.jpg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 360px;
+ background-position: bottom;
+ }
+ .container{
+  height: 100%;
+ }
+ .row{
+  height: 100%;
+ }
+ .col-lg-3{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  i{
+   font-size: 40px;
+   color: #fff;
+   margin-top: 30px;
+  }
+  h3{
+   color: #fff;
+   margin: 30px 0 40px 0;
+   letter-spacing: 2px;
+   font-weight:600;
+  }
+  p{
+   color: #fff;
+   letter-spacing: 1.2px;
+  }
+ }
+ 
+}
